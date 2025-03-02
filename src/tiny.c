@@ -58,3 +58,25 @@ enum
     FL_ZRO = 1 << 1, /* Z */
     FL_NEG = 1 << 2, /* N */
 };
+
+int main(int argc, const char* argv[])
+{
+
+    // Load Arguments
+    //Setup
+
+    //since exactly one condition flag should be set at any given time, set the Z fla
+    reg[R_COND] = FL_ZRO;
+
+    /* set the PC to starting position */
+    /* 0x3000 is the default */
+    enum {PC_START = 0x3000};
+    reg[R_PC] = PC_START;
+
+    int running = 1;
+    while (ri)
+
+
+
+
+}
